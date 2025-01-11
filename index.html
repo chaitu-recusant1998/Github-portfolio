@@ -1,19 +1,3 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,89 +6,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
 
-  <!-- Put your site title here -->
   <title>
     Sai Chaitanya Mondi | Data Analyst with a Motor Head
   </title>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <meta name="description" content="Sai Chaitanya Mondi - Results-driven Data Analyst with expertise in advanced analytics, machine learning, and data visualization." />
+  <meta name="keywords" content="Sai Chaitanya Mondi, Data Analyst, Machine Learning, Data Visualization, Python, SQL, EDA, Portfolio" />
+  <meta property="og:title" content="Sai Chaitanya Mondi | Data Analyst Portfolio" />
+  <meta property="og:description" content="Explore Sai Chaitanya Mondi's work as a Data Analyst, including machine learning projects, exploratory data analysis, and interactive dashboards." />
+  <meta property="og:image" content="./images/portfolio-preview.png" />
+  <meta property="og:url" content="https://your-portfolio-url.com" />
+
   <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="index.js"></script>
 </head>
 
 <body>
-
-  <!-- ***** Header ***** -->
-
   <header class="header" role="banner" id="top">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <li class="nav__item"><button id="dark-mode-toggle" class="nav__link">Toggle Dark Mode</button></li>
         </ul>
       </nav>
     </div>
     <div class="header__text-box row">
       <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Sai Chaitanya Mondi</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>
-          Data Analyst with a Motor Head.
-        </p>
+        <h1 class="heading-primary"><span>Sai Chaitanya Mondi</span></h1>
+        <p>Data Analyst with a Motor Head.</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
   </header>
 
   <main role="main">
-
-    <!-- ***** About ***** -->
-
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
         <div class="about__content">
           <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
             <p>
               I’m a results-driven Data Analyst with expertise in advanced analytics, machine learning, and data visualization, 
               dedicated to solving complex problems and driving strategic decision-making. With a passion for cars and a keen interest 
-              in finance, I excel at leveraging data to deliver impactful, business-oriented solutions. Known for strong 
-              problem-solving skills and a commitment to continuous learning, I thrive on transforming data into actionable insights
-              that propel organizational success.
+              in finance, I excel at leveraging data to deliver impactful, business-oriented solutions.
             </p>
-            <!-- Provide a link to your resume -->
             <a href="https://drive.google.com/file/d/10WVtLe46iupjTiuHOeSxwZ0SzW8utGht/view?usp=sharing" class="btn" target="_blank">My Resume</a>
           </div>
 
           <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/Chaitanya.jpg" alt="" />
+            <img class="about__photo" src="./images/Chaitanya.jpg" alt="Sai Chaitanya Mondi" />
           </div>
         </div>
       </div>
     </section>
-  </main>
-
-    <!-- ***** Work ***** -->
 
     <section class="work" id="work">
       <div class="row">
         <h2>My Work</h2>
         <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
           <div class="work__box">
             <div class="work__text">
               <h3>Spam Email Classification Project</h3>
@@ -115,145 +80,48 @@
               <ul class="work__list">
                 <li>Python</li>
                 <li>SQL</li>
-                <li>Streamlit</li>    
+                <li>Streamlit</li>
               </ul>
 
               <div class="work__links">
-                <a href="#" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
+                <a href="#" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
                 <a href="https://github.com/chaitu-recusant1998/MSTIP-" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/project-1.png" class="work__image" alt="Spam Email Classification Project Screenshot" />
             </div>
           </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Automobile Data Analysis (EDA)</h3>
-              <p>
-                Exploratory Data Analysis of an Automobile Dataset, uncovering key insights into consumer preferences, 
-                brand positioning, and price determinants across 29 vehicle features.
-              </p>
-              <ul class="work__list">
-                <li>SQL</li>
-                <li>Python</li>
-                <li>Pandas</li>
-                <li>Numpy</li>
-                <li>Matplotlib</li>
-                <li>Seaborn</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/chaitu-recusant1998/Automobile-Data-Analysis" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.jpg" class="work__image" alt="Project 2" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>
-                USA Accident Data Analysis (EDA)
-              </h3>
-              <p>
-                Exploratory Data Analysis of Car Accident Data, uncovering critical patterns and trends in accident,
-                frequency, time-of-day impacts, and weather-related factors across 7.7 million U.S. accident records.
-              </p>
-              <ul class="work__list">
-                <li>Python</li>
-                <li>Statistics</li>
-                <li>Pandas</li>
-                <li>Matplotlib</li>
-                <li>Seaborn</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/chaitu-recusant1998/USA-accident-analysis" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.jpg" class="work__image" alt="Project 3" />
-            </div>
-          </div>
+          <!-- Add similar sections for other projects -->
         </div>
       </div>
     </section>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Looking to turn your data into dazzling insights? 🚀 Whether you’re curious about data trends, need help with analytics strategy, or want to chat about predictive models (or life in general), I’m here to assist! From crafting interactive dashboards to decoding complex datasets, I love making data work for you.
-        </p>
-        <p>
-          Got a question? Need advice? Or maybe you just want to say “Hi 👋”? Whatever it is, I’ll do my best to respond with data-driven wisdom—or at least a good joke. 😄 The fastest way to reach me? Shoot me an email, and let’s start uncovering insights, one data point at a time! 📊✨
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:saichaitanya.mondi21@yahoo.com" class="btn">saichaitanya.mondi21@yahoo.com</a>
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Looking to turn your data into dazzling insights? 🚀 Whether you’re curious about data trends, need help with analytics strategy, or want to chat about predictive models (or life in general), I’m here to assist! From crafting interactive dashboards to decoding complex datasets, I love making data work for you.
+          </p>
+          <a href="mailto:saichaitanya.mondi21@yahoo.com" class="btn">saichaitanya.mondi21@yahoo.com</a>
+        </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
+    </section>
+  </main>
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://github.com/chaitu-recusant1998" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.kaggle.com/spegray" title="Link to Kaggle Profile">
-            <img src="./images/kaggle-ar21.svg" class="footer__social-image" alt="Kaggle">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/chaitanyamondi/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
+        <li><a href="https://github.com/chaitu-recusant1998" title="Link to Github Profile"><img src="./images/github.svg" alt="GitHub"></a></li>
+        <li><a href="https://www.kaggle.com/spegray" title="Link to Kaggle Profile"><img src="./images/kaggle-ar21.svg" alt="Kaggle"></a></li>
+        <li><a href="https://www.linkedin.com/in/chaitanyamondi/" title="Link to LinkedIn Profile"><img src="./images/linkedin.svg" alt="LinkedIn"></a></li>
       </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
+      <p>&copy; 2025 Sai Chaitanya Mondi. All Rights Reserved.</p>
     </div>
   </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
 </body>
 
 </html>
